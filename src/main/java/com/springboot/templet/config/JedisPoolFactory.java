@@ -13,7 +13,9 @@ import java.time.Duration;
 @Configuration
 public class JedisPoolFactory {
 
-    //自动注入redis配置属性文件
+    /**
+     * 自动注入redis配置属性文件
+     */
     @Autowired
     private RedisProperties properties;
 
